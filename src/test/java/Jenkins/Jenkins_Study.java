@@ -10,10 +10,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.Test;
 
 public class Jenkins_Study {
-	
 	@Test
 	public void TC_001() {
 
@@ -32,7 +30,6 @@ public class Jenkins_Study {
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.alertIsPresent());
 		
-		//commit no.3
 
 	}
 }
